@@ -1,0 +1,44 @@
+body,html{
+	width: 100%;
+	height: 100%;
+    font-family: 'Roboto Mono', monospace;
+    /*from css-tricks page*/
+    background: url("nature.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header{
+	font-style: bold;
+}    
+
+
+.container{
+	padding-top: 200px;
+}
+
+
+#hr {
+    margin: 20px auto;
+    color: rgba(0, 64, 0,1);
+    border: 1px solid rgba(0, 64, 0,1);
+    max-width: 65px;
+    opacity: 0.8;
+}
+
+
+#btnn {
+	background-color: rgba(0, 64, 0,1);
+	text-transform: uppercase;
+	border-radius: 400px;
+	border-color: rgba(0, 64, 0,1);
+}
+
+#btnn:hover {
+	border-color: rgba(0, 64, 0, 0.3);
+	background-color: rgba(0, 64, 0, 0.3);
+	border-width: 5px;
+
+}
